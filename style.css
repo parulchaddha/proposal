@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light Pink Background */
+}
+
+.container {
+    position: relative;
+}
+
+.proposal-box {
+    background-color: #fff;
+    border: 2px solid #ffc0cb; /* Light Pink Border */
+    box-shadow: 0 0 10px rgba(255, 192, 203, 0.5); /* White Shadow */
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#noBtn {
+    position: relative;
+}
+
+#cuteGif {
+    position: absolute;
+    top: calc(100% + 20px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
